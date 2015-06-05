@@ -34,3 +34,29 @@ a.captionOrange:hover
   background: url(browser-icons.png);
 }
 
+.div_slider1 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.div_slides {
+  cursor: move;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.div_caption {
+  position:absolute;
+  left:20px;
+  top: 30px;
+  width:300px;
+  height:30px;
+}
