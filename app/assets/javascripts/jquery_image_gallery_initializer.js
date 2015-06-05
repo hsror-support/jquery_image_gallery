@@ -1,4 +1,5 @@
 jssor_slider1_starter = function (containerId) {
+  alert("Bonjour mon coeur")
 
   var _SlideshowTransitions = [
     //Rotate Overlap
