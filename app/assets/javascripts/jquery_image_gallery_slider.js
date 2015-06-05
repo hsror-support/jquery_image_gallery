@@ -31,7 +31,7 @@
 
 
 var $JssorSlideshowFormations$ = window.$JssorSlideshowFormations$ = new function () {
-  alert("just une test :: deuxième");
+
   var _This = this;
 
   //Constants +++++++
@@ -2611,6 +2611,7 @@ var $JssorSlider$ = window.$JssorSlider$ = function (elmt, options) {
 
   $JssorDebug$.$Execute(function () {
     var outerContainerElmt = $Jssor$.$GetElement(elmt);
+    console.log('outerContainerElmt - ' + outerContainerElmt);
     if (!outerContainerElmt)
       $JssorDebug$.$Fail("Outer container '" + elmt + "' not found.");
   });
