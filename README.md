@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jquery_image_gallery', '~> 0.2.6'
+gem 'jquery_image_gallery', '~> 0.2.7'
 ```
 
 And then execute:
@@ -22,28 +22,29 @@ Or install it yourself as:
 
 ## Usage
 
-Add 'require jquery_image_gallery_main' in your application.js file
+Add
+    'require jquery_image_gallery_main'
+in your application.js file
 
 
 ## Follow the structure in your view file
 
-<div id="slider1_container" class="div_slider1">
-  <!-- Slides Container -->
-  <div u="slides" class="div_slides">
-    <div>
-      <a u=image href="#"><img src="path/to/image" /></a>
-      <div u=caption t="*" class="captionOrange div_caption">
-      	TEXT YOU WANT TO DISPLAY
-      </div>
-    </div>
-  </div>
-</div>
+    div id="slider1_container" class="div_slider1"
+      div u="slides" class="div_slides"
+        div
+          a u=image href="#"
+            IMAGE
+          /a
+          div u=caption t="*" class="captionOrange div_caption"
+            TEXT YOU WANT TO DISPLAY
+          /div
+        /div
+      /div
+    /div
 
 ## Add the following code after you create the div for image gallery
 
-<script type="text/javascript">
-  jssor_slider1_starter('slider1_container');
-</script>
+    jssor_slider1_starter('slider1_container');
 
 ## Development
 
