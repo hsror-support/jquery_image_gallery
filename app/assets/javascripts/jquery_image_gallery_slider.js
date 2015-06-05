@@ -31,6 +31,7 @@
 
 
 var $JssorSlideshowFormations$ = window.$JssorSlideshowFormations$ = new function () {
+  alert("just une test :: deuxième");
   var _This = this;
 
   //Constants +++++++

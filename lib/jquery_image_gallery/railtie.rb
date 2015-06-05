@@ -5,7 +5,7 @@ module LogStasher
     config.jquery_image_gallery = ActiveSupport::OrderedOptions.new
 
     initializer :jquery_image_gallery do |app|
-      puts 'initializer in module'
+      puts 'initializer in module :: jquery_image_gallery'
     end
   end
 end

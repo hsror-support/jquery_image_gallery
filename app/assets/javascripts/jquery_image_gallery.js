@@ -34,6 +34,8 @@
 //$JssorDebug$
 var $JssorDebug$ = new function () {
 
+  alert("just une test :: premier");
+
   this.$DebugMode = true;
 
   // Methods
